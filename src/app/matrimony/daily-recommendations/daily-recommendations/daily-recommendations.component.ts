@@ -51,11 +51,9 @@ export class DailyRecommendationsComponent implements OnInit {
     this.animationState = '';
   }
   onSwipeRight(event: any) {
-    console.log('event right', event);
     this.startAnimation('swiperight')
   }
   onSwipeLeft(event: any) {
-    console.log('event left', event);
     this.startAnimation('swipeleft')
   }
 }
