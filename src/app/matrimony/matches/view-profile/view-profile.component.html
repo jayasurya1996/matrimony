@@ -1,0 +1,24 @@
+<div class="p-4 bg-light h-100">
+    <div class="d-flex justify-content-center mt-5">
+        <div class="card">
+            <div class="img-container">
+                <img class="imageRadius w-100" [src]="selectedProfile.userImage" alt="userImage">
+            </div>
+            <div class="pt-4 px-3">
+                <p class="font-weight-bold lead mb-1">{{selectedProfile.name}}</p>
+                <div class="d-flex">
+                    <div>
+                        <p class="mb-1">{{selectedProfile.age}}, {{selectedProfile.occupation}},
+                            {{selectedProfile.zodiac}}</p>
+                        <div>
+                            <p class="mb-1">{{selectedProfile.address.city}}, {{selectedProfile.address.state}},</p>
+                        </div>
+                        <div>
+                            <p>{{selectedProfile.address.country}}.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

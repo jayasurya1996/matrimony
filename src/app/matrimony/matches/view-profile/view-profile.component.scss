@@ -1,0 +1,32 @@
+:host ::ng-deep {
+  .card {
+    height: 24rem !important;
+    width: 400px !important;
+    border-radius: 0.5rem !important;
+  }
+}
+
+img {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+.img-container {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  width: auto;
+  height: 200px;
+}
+
+@media (max-width: 320px) {
+  .card {
+    height: 20rem !important;
+  }
+  .img-container {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+  }
+}

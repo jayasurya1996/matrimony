@@ -1,0 +1,40 @@
+<div class="p-4 bg-info h-100" *ngIf="userList.length > 0">
+    <h2 class="text-white">My Matches</h2>
+    <h2 class="text-white pt-2">8 Profiles pending with me</h2>
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let user of userList; let i = index">
+            <ng-template carouselSlide>
+                <div class="card">
+                    <div class="card-body p-0">
+                        <div class="img-container">
+                            <img class="imageRadius" [src]="user.userImage" alt="userImage" (click)="clickUser(user)">
+                        </div>
+                        <div class="m-3">
+                            <p class="font-weight-bold lead mb-1">{{user.name}}</p>
+                            <div class="d-flex">
+                                <div>
+                                    <p class="mb-1">{{user.age}}, {{user.occupation}}, {{user.zodiac}}</p>
+                                    <div>
+                                        <p class="mb-1">{{user.address.city}}, {{user.address.state}},</p>
+                                    </div>
+                                    <div>
+                                        <p>{{user.address.country}}.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="marginRight">
+                                    <button class="w-100 btn btn-warning rounded-pill text-light"
+                                        (click)="clickUser(user)">Yes</button>
+                                </div>
+                                <div>
+                                    <button class="w-100 btn bg-transparent border text-dark rounded-pill">No</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
+</div>

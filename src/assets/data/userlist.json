@@ -1,0 +1,54 @@
+[
+    {
+        "userImage": "assets/images/us2.jpg",
+        "name": "Ajith",
+        "age": 27,
+        "height": "5.2 ft",
+        "address": {
+            "state": "Tamil Nadu",
+            "city": "Chennai",
+            "country": "India"
+        },
+        "occupation": "MBBS, Doctor",
+        "zodiac": "Poosam"
+    },
+    {
+        "userImage": "assets/images/us3.jpg",
+        "name": "Vijay",
+        "age": 27,
+        "height": "5.2 ft",
+        "address": {
+            "state": "Tamil Nadu",
+            "city": "Chennai",
+            "country": "India"
+        },
+        "occupation": "B.Tech(CSE), Software Engineer",
+        "zodiac": "Poosam"
+    },
+    {
+        "userImage": "assets/images/us4.jpg",
+        "name": "Sam",
+        "age": 27,
+        "height": "5.2 ft",
+        "address": {
+            "state": "Tamil Nadu",
+            "city": "Chennai",
+            "country": "India"
+        },
+        "occupation": "MBBS, Doctor",
+        "zodiac": "Poosam"
+    },
+    {
+        "userImage": "assets/images/us6.jpg",
+        "name": "Andrea",
+        "age": 27,
+        "height": "5.2 ft",
+        "address": {
+            "state": "Tamil Nadu",
+            "city": "Chennai",
+            "country": "India"
+        },
+        "occupation": "B.Tech(CSE), Software Engineer",
+        "zodiac": "Poosam"
+    }
+]
